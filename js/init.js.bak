@@ -130,7 +130,7 @@ $(document).ready( function () {
   });
 
   //colorbox for register and signin
- // $(".reg").colorbox({inline:true, href:"#register"});
+  $(".reg").colorbox({inline:true, href:"#register"});
   $(".sign").colorbox({inline:true, href:"#signin"});
 
   //tabs - about section
