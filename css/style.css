@@ -1011,7 +1011,7 @@ section h1 {
   background: url('../images/man-icon.png') no-repeat 50% -200px;
 }
 #testemonials h3 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #777;
   font-size: 14px;
   margin-bottom: 15px;
