@@ -126,7 +126,10 @@ $(document).ready( function () {
 
   //run flexslider
   $('.flexslider').flexslider({
-    animation: "slide"
+    animation: "slide",
+	slideshowSpeed: 15000,
+	animationSpeed: 1000
+	
   });
 
   //colorbox for register and signin

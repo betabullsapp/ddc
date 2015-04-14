@@ -13,9 +13,9 @@
 	
         var defaults = $.extend({
             visibleItems : 4,
-            animationSpeed : 200,
+            animationSpeed : 10000,
             autoPlay : false,
-            autoPlaySpeed : 3000,
+            autoPlaySpeed : 11000,
             pauseOnHover : true,
             setMaxWidthAndHeight : false,
             enableResponsiveBreakpoints : true,

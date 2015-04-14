@@ -121,7 +121,7 @@
   header .register {
     text-align: left;
     padding: 25px;
-    left: 0;
+    left: 225px;
     margin-left: 0;
     right: 316px;
     width: auto;
@@ -415,7 +415,7 @@
   }
 
   header {
-    background: url('../images/background2.jpg') no-repeat 50% 0;
+   
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -423,16 +423,15 @@
     -ms-behavior: url(../js/backgroundsize.htc);
   }
   header nav {
-    right: 0;
+    right: 200px;
   }
   header nav ul li {
     padding: 0 20px;
   }
   header .register {
-    right: 300px;
+    right: 470px;
   }
 }
-
 
 
 
