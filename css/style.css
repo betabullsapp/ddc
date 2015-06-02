@@ -725,7 +725,7 @@ header .register {
   z-index: 10;
 }
 header .register * {
-  color: #fff;
+  color: #fff !important;
 }
 header .register h1 {
   margin-bottom: 0;
@@ -1195,7 +1195,7 @@ blockquote i {
 + CAROUSEL
 +
 -------------------------------------------------------------------------------------- */
-.nbs-flexisel-container {
+/*.nbs-flexisel-container {
   position: relative;
   max-width: 100%;
 }
@@ -1403,7 +1403,7 @@ blockquote i {
   width: 100%;
   position: relative;
 }
-
+*/
 /* --------------------------------------------------------------------------------------
 +
 + FLEXSLIDER
@@ -1794,4 +1794,28 @@ html[xmlns] .slides {
   color: #f40e63;
   margin-bottom: 15px;
   display: block;
+}
+@media screen and (min-width: 768px){
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  margin-right: -100px !important;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  margin-left: -100px !important;
+}
+}
+.register .btn{
+
+  text-align: center !important;
+ 
+  background: #f40e63 !important;
+  border: none !important;
+  
+  
+  
+  padding: 0 20px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+
+
+
 }
