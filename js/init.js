@@ -127,7 +127,7 @@ $(document).ready( function () {
   //run flexslider
   $('.flexslider').flexslider({
     animation: "slide",
-	slideshowSpeed: 15000,
+	slideshowSpeed: 50000,
 	animationSpeed: 1000
 	
   });
