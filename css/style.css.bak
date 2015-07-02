@@ -157,7 +157,7 @@ strong {
 
 ::-moz-selection {
   background: black;
-  color: black;
+  color: white;
   text-shadow: none;
 }
 
@@ -707,7 +707,7 @@ header nav ul a:hover {
 header .register {
   text-align: center;
   width: 96%;
-  left: 50%;
+  left: 0%;
   margin-left: -48%;
   background-color: #227da5;
   background-color: rgba(0, 123, 162, 0.7);
@@ -725,7 +725,7 @@ header .register {
   z-index: 10;
 }
 header .register * {
-  color: #fff;
+  color: #fff !important;
 }
 header .register h1 {
   margin-bottom: 0;
@@ -996,7 +996,7 @@ section h1 {
   background: url('../images/woman-icon.png') no-repeat 50% 20px;
 }
 #testemonials li.visible:nth-child(2) {
-  background: url('../images/love-icon.png') no-repeat 50% 20px;
+  /*background: url('../images/love-icon.png') no-repeat 50% 20px;*/
 }
 #testemonials li.visible:nth-child(3) {
   background: url('../images/man-icon.png') no-repeat 50% 20px;
@@ -1005,13 +1005,13 @@ section h1 {
   background: url('../images/woman-icon.png') no-repeat 50% -200px;
 }
 #testemonials li:nth-child(2) {
-  background: url('../images/love-icon.png') no-repeat 50% -200px;
+  /*background: url('../images/love-icon.png') no-repeat 50% -200px;*/
 }
 #testemonials li:nth-child(3) {
   background: url('../images/man-icon.png') no-repeat 50% -200px;
 }
 #testemonials h3 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #777;
   font-size: 14px;
   margin-bottom: 15px;
@@ -1195,7 +1195,7 @@ blockquote i {
 + CAROUSEL
 +
 -------------------------------------------------------------------------------------- */
-.nbs-flexisel-container {
+/*.nbs-flexisel-container {
   position: relative;
   max-width: 100%;
 }
@@ -1403,7 +1403,7 @@ blockquote i {
   width: 100%;
   position: relative;
 }
-
+*/
 /* --------------------------------------------------------------------------------------
 +
 + FLEXSLIDER
@@ -1794,4 +1794,28 @@ html[xmlns] .slides {
   color: #f40e63;
   margin-bottom: 15px;
   display: block;
+}
+@media screen and (min-width: 768px){
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  margin-right: -100px !important;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  margin-left: -100px !important;
+}
+}
+.register .btn{
+
+  text-align: center !important;
+ 
+  background: #f40e63 !important;
+  border: none !important;
+  
+  
+  
+  padding: 0 20px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+
+
+
 }
