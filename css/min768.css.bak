@@ -107,7 +107,7 @@
     visibility: hidden;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
-    background: url('../images/nav_bgr.png') no-repeat 0 0;
+    /*background: url('../images/nav_bgr.png') no-repeat 0 0;*/
     left: 50%;
     z-index: -1;
   }
@@ -121,11 +121,11 @@
   header .register {
     text-align: left;
     padding: 25px;
-    left: 0;
+    left: 80px;
     margin-left: 0;
     right: 316px;
     width: auto;
-    top: 200px;
+    top: 370px;
     -webkit-border-radius: 5px 0 0 5px;
     -moz-border-radius: 5px 0 0 5px;
     -ms-border-radius: 5px 0 0 5px;
@@ -415,7 +415,7 @@
   }
 
   header {
-    background: url('../images/background2.jpg') no-repeat 50% 0;
+   
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -423,12 +423,17 @@
     -ms-behavior: url(../js/backgroundsize.htc);
   }
   header nav {
-    right: 0;
+    right: 200px;
   }
   header nav ul li {
     padding: 0 20px;
   }
   header .register {
-    right: 300px;
+    right: 700px;
   }
 }
+
+
+
+
+

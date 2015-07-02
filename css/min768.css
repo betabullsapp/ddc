@@ -121,11 +121,11 @@
   header .register {
     text-align: left;
     padding: 25px;
-    left: 225px;
+    left: 70px;
     margin-left: 0;
     right: 316px;
     width: auto;
-    top: 200px;
+    top: 370px;
     -webkit-border-radius: 5px 0 0 5px;
     -moz-border-radius: 5px 0 0 5px;
     -ms-border-radius: 5px 0 0 5px;
@@ -429,7 +429,7 @@
     padding: 0 20px;
   }
   header .register {
-    right: 470px;
+    right: 700px;
   }
 }
 
