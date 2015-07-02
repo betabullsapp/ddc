@@ -121,7 +121,7 @@
   header .register {
     text-align: left;
     padding: 25px;
-    left: 70px;
+    left: 60px;
     margin-left: 0;
     right: 316px;
     width: auto;
@@ -137,6 +137,7 @@
   }
   header .register h2 {
     font-size: 34px;
+    margin-top:-16px;
   }
   header .register p {
     margin-bottom: 20px;
