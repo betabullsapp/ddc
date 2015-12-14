@@ -518,6 +518,7 @@ label.error {
 -------------------------------------------------------------------------------------- */
 header {
  /*  background-color: white; */
+ 
   background: url('../images/ddc4.png') no-repeat 50% 0;
   border-top: 3px solid #075c76;
   -webkit-box-sizing: border-box;
